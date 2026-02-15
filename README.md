@@ -1,5 +1,10 @@
 # Zero-To-VPS — Understand, access, and set up your first VPS 🚀
 
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![Documentation](https://img.shields.io/badge/docs-tutorial-blue.svg)](https://github.com/KARINE001/Zero-To-VPS)
+[![Beginner Friendly](https://img.shields.io/badge/beginner-friendly-green.svg)](https://github.com/KARINE001/Zero-To-VPS)
+[![Contributions Welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg)](https://github.com/KARINE001/Zero-To-VPS/issues)
+
 **Break through the invisible wall between buying a VPS and actually using it**
 
 You just bought a VPS. Now what? This guide gets you from "I have an IP address" to "I'm actually controlling my server" in the simplest way possible.

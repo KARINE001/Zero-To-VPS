@@ -78,6 +78,8 @@ Step 2: Enter IP address, username, password
    ↓
 Step 3: Click "Connect" or "Login"
    ↓
+Step 3.5: Accept host key verification (first time only)
+   ↓
 Step 4: See a terminal with a prompt:
    root@yourserver:~# █
    ↓

@@ -40,15 +40,17 @@ It will ask for:
 
 **Use a strong password!** Mix letters, numbers, symbols.
 
-### 3. Setup a Firewall (UFW)
+### 3. Set Up a Firewall (UFW)
 
 UFW = Uncomplicated Firewall. It blocks unwanted connections.
+
+**⚠️ CRITICAL: Allow SSH port BEFORE enabling the firewall, or you'll lock yourself out!**
 
 ```bash
 # Install UFW
 apt install ufw -y
 
-# Allow SSH (DON'T SKIP THIS or you'll lock yourself out!)
+# Allow SSH FIRST (DON'T SKIP THIS!)
 ufw allow 22
 
 # Allow other ports you need (example: web server)
@@ -71,9 +73,9 @@ To                         Action
 22                         ALLOW
 ```
 
-### 4. Create a Non-Root User (Optional but Recommended)
+### 4. Create a Non-Root User (For Production)
 
-Don't always use root. Create a regular user:
+For learning/testing, root is fine. For production nodes, create a regular user:
 
 ```bash
 # Create new user

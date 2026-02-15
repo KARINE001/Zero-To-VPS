@@ -62,6 +62,8 @@ apt update && apt upgrade -y
 ```
 Updates all software on your VPS. Run this regularly!
 
+**Note:** The `-y` flag auto-accepts updates. For more control, use `apt update && apt upgrade` and review changes before accepting.
+
 ### 6. Check Running Stuff → `htop`
 ```bash
 htop
